@@ -1,0 +1,25 @@
+body {
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+    color: black;
+    background-color: #FFFAFA;
+    width: 97%;
+}
+
+h1, h2 {
+    font-size: 30px;
+    text-align: center;
+    color: DarkRed;
+}
+
+h3 {color: blue}
+p {text-align: justify; font-family: 'Montserrat', "Times New Roman"; float: right;}
+
+h4 {text-align: left;}
+
+.img { 
+    float: left; /*обтекание */ 
+    margin:5px; /*внешний отступ для красоты */ 
+    display:inline; /* для IE6, чтоб отступ слева не удвоился */ 
+}
+
