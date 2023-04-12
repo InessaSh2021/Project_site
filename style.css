@@ -12,14 +12,12 @@ h1, h2 {
     color: DarkRed;
 }
 
-h3 {color: blue}
-p {text-align: justify; font-family: 'Montserrat', "Times New Roman"; float: right;}
+h3 {color: blue; text-align: left;}
+p {text-align: justify; font-family: 'Montserrat', "Times New Roman";}
 
 h4 {text-align: left;}
 
-.img { 
-    float: left; /*обтекание */ 
-    margin:5px; /*внешний отступ для красоты */ 
-    display:inline; /* для IE6, чтоб отступ слева не удвоился */ 
-}
+picture {float: left;}
+
+
 
